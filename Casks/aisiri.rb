@@ -2,13 +2,12 @@ cask "aisiri" do
   version "0.3.1"
   sha256 "696860d7c9b4dca2fda5dcb441bbc4b4d8eeaed2db9a2ab5b7bffddb6dd788f0"
 
-  url "https://github.com/quyansiyuanwang/macos-ai-assistant/releases/download/v#{version}/AiSiri-v#{version}.zip",
-      verified: "github.com/quyansiyuanwang/macos-ai-assistant/"
+  url "https://github.com/quyansiyuanwang/macos-ai-assistant/releases/download/v#{version}/AiSiri-v#{version}.zip"
   name "AiSiri"
   desc "Native macOS menu bar AI assistant with a Swift agent runtime"
   homepage "https://github.com/quyansiyuanwang/macos-ai-assistant"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "AiSiri.app"
 
