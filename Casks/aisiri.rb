@@ -8,6 +8,7 @@ cask "aisiri" do
   homepage "https://github.com/quyansiyuanwang/macos-ai-assistant"
 
   depends_on macos: :ventura
+  quarantine false
 
   app "AiSiri.app"
 
