@@ -1,6 +1,6 @@
 cask "aisiri" do
-  version "0.3.9"
-  sha256 "2c1eaa06a0ff6457667678c3371657a72e1a57bf4957bff6797dabe89bf7e00b"
+  version "0.3.10"
+  sha256 "bb1f523480de1c07a015203f07c71f05240bb0fd5e46257cf0b5822e9f13d0b3"
 
   url "https://github.com/quyansiyuanwang/macos-ai-assistant/releases/download/v#{version}/AiSiri-v#{version}.zip"
   name "AiSiri"
