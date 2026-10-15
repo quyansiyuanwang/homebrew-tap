@@ -14,7 +14,7 @@ cask "myna" do
   # Myna is ad-hoc signed, not notarized (notarization requires a paid
   # Developer ID certificate). Strip the quarantine attribute that Homebrew
   # applies on download so the app launches without the Gatekeeper prompt.
-  postflight do
+  postflight_steps do
     system_command "/usr/bin/xattr",
                    args:         ["-dr", "com.apple.quarantine", "#{appdir}/Myna.app"],
                    print_stderr: false
