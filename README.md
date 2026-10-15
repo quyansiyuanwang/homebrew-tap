@@ -5,18 +5,18 @@ Homebrew casks maintained by [@quyansiyuanwang](https://github.com/quyansiyuanwa
 ## Usage
 
 ```sh
-brew install --cask quyansiyuanwang/tap/aisiri
+brew install --cask quyansiyuanwang/tap/myna
 ```
 
 Or tap first:
 
 ```sh
 brew tap quyansiyuanwang/tap
-brew install --cask aisiri
+brew install --cask myna
 ```
 
 ## Casks
 
 | Cask | Description |
 |---|---|
-| `aisiri` | [AiSiri](https://github.com/quyansiyuanwang/macos-ai-assistant) — native macOS menu bar AI assistant with a Swift agent runtime |
+| `myna` | [Myna](https://github.com/quyansiyuanwang/myna) — native macOS menu bar AI assistant with a Swift agent runtime |
