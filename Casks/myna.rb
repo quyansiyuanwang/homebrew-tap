@@ -1,6 +1,6 @@
 cask "myna" do
-  version "0.11.8"
-  sha256 "768e559baf480f4acf9c24f176ea4d8677efc0a02a9dd7c8d0538c96e087d82b"
+  version "0.11.9"
+  sha256 "902165812e6e2d253b2592b7fa0d558490deaa2cd583f50d0b376fdf68494934"
 
   url "https://github.com/quyansiyuanwang/myna/releases/download/v#{version}/Myna-v#{version}.zip"
   name "Myna"
