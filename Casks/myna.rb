@@ -1,6 +1,6 @@
 cask "myna" do
-  version "0.15.8"
-  sha256 "6733ec4765a5e6ec626826c8c8c722339de37b8211ed68ba9d757c1c8999ac7f"
+  version "0.16.0"
+  sha256 "042eb8830700b39e6745fbe10a7b03d33ee4d56f7c84f2b92978ac928a4e30ae"
 
   url "https://github.com/quyansiyuanwang/myna/releases/download/v#{version}/Myna-v#{version}.zip"
   name "Myna"
@@ -26,8 +26,9 @@ cask "myna" do
   caveats do
     <<~EOS
       Myna runs as a menu bar app (no Dock icon).
-      Grant Microphone and Accessibility permissions when prompted, then set your
-      API key in Settings. The configuration is stored at ~/.config/myna/config.json.
+      Grant Microphone, Accessibility and Screen Recording permissions when
+      prompted (Accessibility and Screen Recording are required for computer
+      use), then set your API key in Settings. The configuration is stored at ~/.config/myna/config.json.
     EOS
   end
 
